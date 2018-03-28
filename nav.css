@@ -1,0 +1,83 @@
+
+
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a6060;
+	border-top: 1px solid #f0f0f0 ;
+	border-top-style: inset;
+}
+.navul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6c2c2c;
+}
+
+.navli {
+    float: left;
+	
+}
+
+.navli a, .dropbtn {
+    display: inline-block;
+    color: #f0f0f0 ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navli a:hover, .dropdown:hover .dropbtn {
+    background-color: #986B6B;
+}
+
+
+.navli2 {
+    float: left;
+	
+}
+
+.navli2 a {
+    display: inline-block;
+    color: #f0f0f0 ;
+    text-align: center;
+    padding: 6px ;
+    text-decoration: none;
+}
+
+.navli2 a:hover{
+    background-color: #6c2c2c;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #d5c3c3}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
